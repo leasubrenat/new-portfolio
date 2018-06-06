@@ -42,7 +42,7 @@ var map = AmCharts.makeChart( "chartdiv", {
       "longitude": -99.1332
     }, {
       "svgPath": planeSVG,
-      "title": "Plane",
+      "id": "plane",
       "positionOnLine": 0,
       "color": "#B59CCD",
       "animateAlongLine": true,
@@ -61,8 +61,6 @@ var map = AmCharts.makeChart( "chartdiv", {
 
   "imagesSettings": {
     "color": "#9CCDB5",
-    "rollOverColor": "#B59CCD",
-    "selectedColor": "#B59CCD",
     "pauseDuration": 1,
     "animationDuration": 8,
     "adjustAnimationSpeed": true
